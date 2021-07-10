@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:white;
+}
+
+
+.emi-holder{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin-top:10px;
+}
+
+
+.calculator,.results{
+
+    width:40%;
+}
+
+
+.card{
+
+    background-color:burlywood;
+    padding:20px;
+    color:white;
+}
+
+
+.h1{
+    text-align: center;
+}
+
+input{
+    width:100%;
+    height: 40px;
+    color:black;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn{
+    background-color: #181934;
+    color:white;
+    padding:10px 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+
+}
+
+.results h1{
+
+    text-align: center;
+
+}
+
+.results h3{
+    color:black;
+}
+
+#chartContainer{
+
+    height: 300px;
+    width:100%;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+
+.footer {
+    color: #888888;
+    border-top: 1px solid lightblue;
+    margin-top: 16px;
+    padding: 16px 0;
+
+    color:black;
+    font-size: 50px;
+}

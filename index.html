@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main-content">
+        <div class="emi-holder">
+        
+            <div class="calculator card">
+                <h1>Emi calculator</h1>
+                <form action="">
+                    <div class="block">
+                        <h3>Loan Amount</h3>
+               
+                            <input type="number" name="amount" id="amount">
+                        
+                        
+    
+                    </div>
+                    <div class="block">
+                        <h3>Interest</h3>
+                        <input type="number" name="ir" id="ir">
+    
+                    </div>
+                    <div class="block">
+                        <h3>Time(yrs)</h3>
+                        <input type="number" name="time" id="time">
+    
+                    </div>
+                    <div class="button">
+                        <button class="btn" id="find">
+    
+                            Calculate EMi
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="results card">
+                 <h1>Results</h1>
+                 <h3>Total Emi:<span class="emi"></span></h3>
+                 <h3>Total Interest:<span class="total_interest"></span></h3>
+                 <h3>Total Amount :<span class="total_amount"></span></h3>
+                 <div id="chartContainer">
+    
+                 </div>
+            </div>
+        </div>
+            
+    </div>
+   
+    <div class="footer">
+         Elie Muhiya
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
